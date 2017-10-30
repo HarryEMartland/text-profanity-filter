@@ -18,7 +18,7 @@ import org.junit.runners.Parameterized;
 @RunWith(Parameterized.class)
 public class ProfanityTest {
 
-    private static final int REPEAT_COUNT = 10;
+    private static final int REPEAT_COUNT = 10000;
 
     private static String largeText;
     private static List<String> profanityList;
